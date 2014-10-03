@@ -1,0 +1,1 @@
+psql movies -f insert_data.sql

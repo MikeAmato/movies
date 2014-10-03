@@ -1,0 +1,1 @@
+psql movies -f create_schema.sql
