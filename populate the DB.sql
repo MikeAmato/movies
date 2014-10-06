@@ -1,7 +1,7 @@
-DROP TABLE IF EXISTS movies;
-DROP TABLE IF EXISTS directors;
-DROP TABLE IF EXISTS middle;
-DROP TABLE IF EXISTS actors;
+DELETE FROM middle;
+DELETE FROM actors;
+DELETE FROM movies;
+DELETE FROM directors;
 
 
 INSERT INTO directors (id, first, last) VALUES 
